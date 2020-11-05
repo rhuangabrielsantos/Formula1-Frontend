@@ -82,11 +82,17 @@
     padding-bottom: 25px;
 }
 
-#container .back-icon {
-    position: absolute;
+#container .login-content .back-icon {
+    width: 100%;
+}
+
+#container .login-content .back-icon img {
     width: 33px;
     height: 40px;
-    margin: 15px 15px;
+
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 #container .other-login-content {

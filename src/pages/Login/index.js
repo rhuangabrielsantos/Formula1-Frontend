@@ -13,11 +13,11 @@ import './styles.css';
 function Login() {
     return(
         <div id="container">
-            <Link to="/">
-                <img src={backIcon} alt="Back" className="back-icon" />
-            </Link>
-
             <div className="login-content">
+                <Link to="/" className="back-icon" >
+                    <img src={backIcon} alt="Back" />
+                </Link>
+
                 <h1>Login</h1>
 
                 <div className="inputs">
